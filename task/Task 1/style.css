@@ -1,0 +1,29 @@
+body, html {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#centered-box {
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.start-task-button {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 12px 25px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+}
+.start-task-button:hover {
+    background: linear-gradient(135deg, #2575fc, #6a11cb);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}

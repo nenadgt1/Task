@@ -1,0 +1,29 @@
+body, html {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.task-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #1f7500;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.task-button:hover {
+    background-color: #1e7200ad;
+}
